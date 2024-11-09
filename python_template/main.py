@@ -1,10 +1,9 @@
 import moderngl_window as mglw
 
-
 class App(mglw.WindowConfig):
 
     window_size = (1600, 900) 
-    resource_dir = "shaders\\tutorial_video"
+    resource_dir = "shaders\\my_first_shader"
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
